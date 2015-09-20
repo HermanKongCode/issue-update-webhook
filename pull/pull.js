@@ -9,11 +9,11 @@ exports.getIssue = function() {
     var repository = []
 
     repository.push({
-        repository: 'HermanKongCode/webhook',
+        repository: 'HermanKongCode/movie',
         options: {
-            'url': 'https://api.github.com/repos/HermanKongCode/webhook/issues?access_token=6adfb1c9cf604f96c77c8fdb883ce700b040bc94',
+            'url': 'https://api.github.com/repos/HermanKongCode/movie/issues?access_token=6adfb1c9cf604f96c77c8fdb883ce700b040bc94',
             'headers': {
-                'User-Agent': 'HermanKongCode/webhook'
+                'User-Agent': 'HermanKongCode/movie'
             },
             'json': true,
         },
